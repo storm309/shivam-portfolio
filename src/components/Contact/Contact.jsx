@@ -12,8 +12,8 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_5ss12p7",   // ✅ Your EmailJS Service ID
-        "template_1ziboq3",  // ✅ Your EmailJS Template ID
+        "service_s9njseb",   // ✅ Your EmailJS Service ID
+        "template_l8sn1kb",  // ✅ Your EmailJS Template ID
         form.current,
         "lPm4zGUVXZZxiftVb"  // ✅ Your EmailJS Public Key
       )
