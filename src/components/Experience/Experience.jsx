@@ -12,8 +12,9 @@ const Experience = () => {
         <h2 className="text-4xl font-bold text-white">EXPERIENCE</h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
         <p className="text-gray-400 mt-4 text-lg font-semibold">
-          A collection of my work experience and the roles I have taken in
-          various organizations
+          A summary of my roles and contributions across various organizations, highlighting my diverse skills and experience. 
+          My focus has been on taking on roles that challenge me 
+          and allow me to apply my skills in problem-solving and strategic planning
         </p>
       </div>
 
