@@ -49,8 +49,10 @@ import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logos
 import movierecLogo from './assets/work_logo/movie_rec.png';
-import bookshopLogo from './assets/work_logo/bookshop.png';
-import ecommerceLogo from './assets/work_logo/ecommerce.png';
+import bookshopLogo from './assets/work_logo/bookshop.png'; // नया इम्पोर्ट
+import ecommerceLogo from './assets/work_logo/ecommerce.png'; // नया इम्पोर्ट
+
+
 export const SkillsInfo = [
   {
     title: 'Frontend',
@@ -115,9 +117,38 @@ export const experiences = [
     // ... (इसमें कोई बदलाव की ज़रूरत नहीं)
 ];
 
+
+
 export const education = [
-    // ... (इसमें कोई बदलाव की ज़रूरत नहीं)
+  {
+    id: 0,
+    img: glaLogo,
+    school: "Lovely Professional University (LPU), Phagwara",
+    date: "Aug 2023 - Present",
+    grade: "Current CGPA: N/A",
+    desc: "Pursuing B.Tech in Computer Science and Engineering at LPU. Currently in 5th semester; focusing on Data Structures, DBMS, OS, Web Development and projects.",
+    degree: "B.Tech - Computer Science Engineering",
+  },
+  {
+    id: 1,
+    img: vpsLogo,
+    school: "HSV Inter College, Ramgarhwa",
+    date: "Apr 2020 - Mar 2022",
+    grade: "Percentage: 70%",
+    desc: "Completed Class XII from HSV Inter College, Ramgarhwa.",
+    degree: "Intermediate (XII) - PCMB",
+  },
+  {
+    id: 2,
+    img: bsaLogo,
+    school: "SGM High School, Ramgarhwa",
+    date: "Apr 2019 - Mar 2020",
+    grade: "Percentage: 70%",
+    desc: "Completed Class X from SGM School (BSEB).",
+    degree: "Matriculation (X)",
+  },
 ];
+
 
 export const projects = [
   {
