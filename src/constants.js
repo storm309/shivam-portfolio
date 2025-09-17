@@ -49,8 +49,8 @@ import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logos
 import movierecLogo from './assets/work_logo/movie_rec.png';
-import bookshopLogo from './assets/work_logo/bookshop.png'; // नया इम्पोर्ट
-import ecommerceLogo from './assets/work_logo/ecommerce.png'; // नया इम्पोर्ट
+import bookshopLogo from './assets/work_logo/bookshop.png'; 
+import ecommerceLogo from './assets/work_logo/ecommerce.png'; 
 
 
 export const SkillsInfo = [
@@ -86,11 +86,11 @@ export const SkillsInfo = [
       { name: 'Python', logo: pythonLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'TypeScript', logo: typescriptLogo },
-      { name: 'Kotlin', logo: kotlinLogo }, // 'kotlin' से 'Kotlin' किया गया
+      { name: 'Kotlin', logo: kotlinLogo }, 
     ],
   },
   {
-    title: 'Android Development', // नया सेक्शन जोड़ा गया
+    title: 'Android Development', 
     skills: [
         { name: 'Android Studio', logo: androidStudioLogo },
         { name: 'Jetpack Compose', logo: jetpackComposeLogo },
@@ -114,7 +114,7 @@ export const SkillsInfo = [
 ];
 
 export const experiences = [
-    // ... (इसमें कोई बदलाव की ज़रूरत नहीं)
+    
 ];
 
 
@@ -127,7 +127,7 @@ export const education = [
     date: "Aug 2023 - Present",
     grade: "Current CGPA: N/A",
     desc: "Pursuing B.Tech in Computer Science and Engineering at LPU. Currently in 5th semester; focusing on Data Structures, DBMS, OS, Web Development and projects.",
-    degree: "B.Tech - Computer Science Engineering",
+    degree: "B.Tech - Computer Science and Engineering",
   },
   {
     id: 1,
@@ -144,7 +144,7 @@ export const education = [
     school: "SGM High School, Ramgarhwa",
     date: "Apr 2019 - Mar 2020",
     grade: "Percentage: 70%",
-    desc: "Completed Class X from SGM School (BSEB).",
+    desc: "Completed Class X from SGM High School (BSEB).",
     degree: "Matriculation (X)",
   },
 ];
@@ -156,7 +156,7 @@ export const projects = [
     title: "Full-Stack Book Shopping Website",
     description: "A complete full-stack e-commerce platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js). Includes secure RESTful APIs for product, user, and order management. Features JWT authentication and an interactive React front-end with Context API for state management.",
     date: "May 2025 - Sept 2025",
-    image: bookshopLogo, // बदला गया
+    image: bookshopLogo, 
     tags: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT", "Context API"],
     github: "https://github.com/yourusername/bookshop-mern",
     webapp: "https://yourbookshopdemo.com",
@@ -166,7 +166,7 @@ export const projects = [
     title: "E-Commerce Website Frontend",
     description: "A responsive and visually appealing e-commerce front-end built with HTML, Tailwind CSS, and modern JavaScript. Includes a dynamic shopping cart, product filtering, and sorting system for a smooth and intuitive user experience.",
     date: "July 2024 - Nov 2024",
-    image: ecommerceLogo, // बदला गया
+    image: ecommerceLogo, 
     tags: ["HTML", "Tailwind CSS", "JavaScript (ES6+)", "Responsive UI"],
     github: "https://github.com/yourusername/ecommerce-frontend",
     webapp: "https://yourecommercesite.com",
@@ -176,7 +176,7 @@ export const projects = [
     title: "Recommendo - Movie Recommendation System",
     description: `A personalized recommendation engine that suggests content to users. Based on a user's viewing history and ratings, it can recommend movies (like Netflix), products (like Amazon), or music (like Spotify).`,
     date: "Jan 2024 - Apr 2024",
-    image: movierecLogo, // यह पहले से सही था
+    image: movierecLogo,
     tags: ["Python", "Machine Learning", "Pandas", "NumPy", "Scikit-Learn"],
     github: "https://github.com/yourusername/recommendo",
     webapp: "https://recommendo-demo.com",
