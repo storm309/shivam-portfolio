@@ -33,7 +33,8 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 // Import a generic project or freelance logo if you have one
-import projectLogo from './assets/company_logo/project_logo.png';
+import projectLogo from './assets/company_logo/webverse_logo.png';
+
 
 
 // Education Section Logo's
